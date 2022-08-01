@@ -1,8 +1,6 @@
-import {createGlobalStyle} from 'styled-components'
+import {css} from '@emotion/react'
 
-const styled = {createGlobalStyle}
-
-const Typography = styled.createGlobalStyle`
+const Typography = css`
   @font-face {
     font-family: 'Gotham';
     src: url('/fonts/GothamLight.woff2') format('woff2');
